@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: Poppins;
+    color: white;
+    overflow: auto;
+}
+.left-space{
+    margin-left: 5em;
+}
+.nav-img{
+    margin-right: 20em;
+}
+.side-list{
+    margin-right: 10em;
+}
+.navbar{
+    background-color: #0a193d;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-brand h1{
+font-size: 1.25rem;
+}
+.heading-service, .heading-about, .heading-products, .heading-get-in-touch{
+    margin-top: 2em;
+    text-align: center;
+    color: black;
+}
+.text-color{
+    color: black;
+}
+.service-boxes{
+    /* margin-left: 10em; */
+}
