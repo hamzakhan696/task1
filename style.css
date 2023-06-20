@@ -7,17 +7,27 @@ body{
     color: white;
     overflow: auto;
 }
+.nav-link{
+    color: white;
+}
 .left-space{
     margin-left: 5em;
 }
+
 .nav-img{
     margin-left: 10em;
+}
+h6{
+    font-size: 15px;
 }
 /* .contact-button{
     margin-left: 5em
 } */
-header,footer{
+header,footer,.navbar{
     background-color: #0a193d;
+}
+.navbar-toggler-icon{
+    background-color: white;
 }
 /* .side-list{
     margin-right: 10em;
@@ -46,3 +56,8 @@ font-size: 1.25rem;
     }
   }
 
+@media (max-width: 992px){
+    .service-boxes{
+        row-gap: 10px;
+    }
+}

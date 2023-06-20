@@ -15,11 +15,12 @@
 <body>
     <header class="pt-2">
         <div class="container">
-            <section class="navbar d-flex justify-content-between">
-                <div class="navbar-brand">
-                    <h1 class="m-2">Geek and Geek</h1>
+            <section class="navbar d-flex flex-column flex-md-row justify-content-center justify-content-between">
+                <div class="navbar-brand p-2">
+                    <h1>Geek and Geek</h1>
                 </div>
-                <div class="side-list d-none d-lg-block">
+    
+                <div class="side-list side-list d-flex flex-column flex-md-row align-items-md-center" >
                     <ul class="d-inline-flex list-unstyled p-2 ">
                         <li class="m-2"><a href="">Home</a></li>
                         <li class="m-2"><a href="#section-service">Services</a></li>
@@ -31,14 +32,14 @@
             </section>
         </div>
         <div class="container">
-            <section class="navbar d-flex flex-column flex-md-row justify-content-between">
+            <section class="navbar ">
                 <div class="row align-items-center">
                     <div class=" col-12 col-md-6 mb-4 mb-mb-0">
-                    <div class="nav-content text-center text-md-start">
-                        <h5>BEST PROFESSIONAL WEBSITE DESIGN SOFTWARE <br>DEVELOPMENT COMPANY</h5><br>
-                        <p class="text-nowrap"> The fastest way to grow your business with theleader iN Technology</span></p>
+                    <div class="nav-content d-flex flex-column align-items-center text-center ">
+                        <h5>BEST PROFESSIONAL WEBSITE DESIGN SOFTWARE DEVELOPMENT COMPANY</h5><br>
+                        <h6 class="text-nowrap"> The fastest way to grow your business with theleader iN Technology</span></h6>
                         <div class="contact-button  text-center text-md-start">
-                        <button type="button" class="btn btn-light ">Contact us</button>
+                        <button type="button" class="btn btn-light mt-5 btn-sm">Contact us</button>
                         </div>
                     </div>
                 </div>
@@ -51,11 +52,11 @@
             </section>
         </div>       
     </header>
-        <div  id="section-service" class="container border-bottom">
+        <div  id="section-service" class="container ">
             <h2 class="heading-service">SERVICES</h2>
-            <section class="section-service mb-2">
-            <div class="row service-boxes text-center mt-5 ">
-                    <div class="col-12 col-md-4"><img src="./images/gfg.png" alt="gfg">
+            <section class="section-service mb-2 border-bottom">
+            <div class="row service-boxes text-center mt-5 g-sm-5">
+                    <div class="col-12 col-md-4 "><img src="./images/gfg.png" alt="gfg">
                         <h4 class="text-color mt-3">Website Design</h2>
                         <p class="text-color">User Experience Design. Website Content Strategy. Cross Browser and Platform Testing.</p>
                     </div>
@@ -70,9 +71,9 @@
             </div>
         </section>
     </div>
-    <div class="container border-bottom" id="section-about"> 
+    <div class="container " id="section-about"> 
         <h2 class="heading-about"> About</h2>
-        <section  class=" about mb-3">
+        <section  class=" about mb-3 border-bottom">
         <div class="row mt-5">
             <div class="col-12 col-md-6 text-center text-sm-start">
                 <h3 class="text-color text-center  mt-3" >Why US</h3>
@@ -94,7 +95,7 @@
         <h2 class="heading-products">Our Products</h2>
         <section class="products mb-5">
         <div class="row mt-5">
-            <div class="col-12 col-md-6 text-center text-sm-start">
+            <div class="col-12 col-md-6 d-flex justify-content-center">
                 <img src="./images/gfg.png" alt="gfg">
             </div>
             <div class=" col-12 col-md-6 text-center text-sm-start">
@@ -132,10 +133,10 @@
                 </div>
                 <div class="col-12 col-md-4 mt-5">
                     <h2 class="text-nowrap">Subscribe To Newsletter</h2>
-                    <div class="form-group">
-                        <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
-                        <small class="form-text ">We will never share your email with anyone.</small>
-                        <button type="button" class="btn btn-primary ">Submit</button>
+                    <div class="form-group d-flex flex-column">
+                        <input type="email" class="form-control " id="emailInput" placeholder="Enter your email">
+                        <small class="form-text text-start mt-2 ">We will never share your email with anyone.</small>
+                        <button type="button" class="btn btn-primary align-self-start mt-3">Submit</button>
                       </div>
                 </div>
             </div>
