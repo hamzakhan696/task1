@@ -11,7 +11,7 @@ body{
     margin-left: 5em;
 }
 .nav-img{
-    margin-left: 15em;
+    margin-left: 10em;
 }
 /* .contact-button{
     margin-left: 5em
@@ -40,7 +40,9 @@ font-size: 1.25rem;
 .text-color{
     color: black;
 }
-.section-footer{
-height: 25em;
-}
+@media (max-width: 992px) { /* For medium and smaller devices */
+    .nav-img {
+      margin-left: 0; /* Remove the margin on medium and smaller devices */
+    }
+  }
 
