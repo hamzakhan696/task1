@@ -7,9 +7,7 @@ body{
     color: white;
     overflow: auto;
 }
-.nav-link{
-    color: white;
-}
+
 .left-space{
     margin-left: 5em;
 }
@@ -50,6 +48,10 @@ font-size: 1.25rem;
 .text-color{
     color: black;
 }
+.text-white{
+    color: white;
+}
+
 @media (max-width: 992px) { /* For medium and smaller devices */
     .nav-img {
       margin-left: 0; /* Remove the margin on medium and smaller devices */
