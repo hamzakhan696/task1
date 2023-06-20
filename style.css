@@ -11,14 +11,20 @@ body{
     margin-left: 5em;
 }
 .nav-img{
-    margin-right: 20em;
+    margin-left: 15em;
 }
-.side-list{
-    margin-right: 10em;
-}
-.navbar{
+/* .contact-button{
+    margin-left: 5em
+} */
+header,footer{
     background-color: #0a193d;
 }
+/* .side-list{
+    margin-right: 10em;
+} */
+/* .navbar{
+    background-color: #0a193d;
+} */
 a{
     text-decoration: none;
     color: white;
@@ -34,6 +40,7 @@ font-size: 1.25rem;
 .text-color{
     color: black;
 }
-.service-boxes{
-    /* margin-left: 10em; */
+.section-footer{
+height: 25em;
 }
+
